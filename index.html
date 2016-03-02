@@ -24,11 +24,11 @@
           </div>
             <div class="navbar-collapse collapse">
               <ul class="nav nav-justified">
-                <li><a href="#principal">Inicio</a></li>
-                <li><a href="#sobreNostros">Sobre Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#founder">Les Atiende</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a data-scroll="" href="#principal">Inicio</a></li>
+                <li><a data-scroll="" href="#sobreNostros">Sobre Nosotros</a></li>
+                <li><a data-scroll="" href="#servicios">Servicios</a></li>
+                <li><a data-scroll="" href="#founder">Les Atiende</a></li>
+                <li><a data-scroll="" href="#contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -36,7 +36,7 @@
       <section id="principal" class="text-center">
         <div class="container-fluid">
           <div class="row">
-            <p class="col-xs-10 col-xs-offset-1">Descubre nuevas formas de aplicar la impresión con nosotros</p>
+            <p class="col-xs-10 col-xs-offset-1 anima1">Descubre nuevas formas de aplicar la impresión con nosotros</p>
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-3">
-              <div class="social flaticon-comercial"></div>
+              <div class="social flaticon-comercial anima1"></div>
               <h3>Impresión Comercial</h3>
               <div class="separador"></div>
               <ul class="text-left mobil">
@@ -95,7 +95,7 @@
               </ul>
             </div>
             <div class="col-md-3">
-              <div class="social flaticon-corporativa"></div>
+              <div class="social flaticon-corporativa anima1"></div>
               <h3>Impreión Corporativa</h3>
               <div class="separador"></div>
               <ul class="text-left mobil">
@@ -115,7 +115,7 @@
               </ul>
             </div>
             <div class="col-md-3">
-              <div class="social flaticon-fotografia"></div>
+              <div class="social flaticon-fotografia anima1"></div>
               <h3>Fotografía</h3>
               <div class="separador"></div>
               <ul class="text-left mobil">
@@ -129,7 +129,7 @@
               </ul>
             </div>
             <div class="col-md-3">
-              <div class="social fa fa-desktop"></div>
+              <div class="social fa fa-desktop anima1"></div>
               <h3>Desarrollo Web</h3>
               <div class="separador"></div>
               <ul class="text-left mobil">
@@ -177,13 +177,13 @@
           <div class="row">
             <form class="col-md-8 col-xs-8 col-xs-offset-2 col-md-offset-2 ">
               <div class="form-group">
-                <input class="col-sm-12 form-control campo" type="text" placeholder="Nombre">
+                <input class="col-sm-12 form-control campo" type="text" placeholder="Nombre" required>
               </div>
               <div class="form-group">
-                <input class="col-sm-12 form-control campo" type="email" placeholder="Correo">
+                <input class="col-sm-12 form-control campo" type="email" placeholder="Correo" required>
               </div>
               <div class="form-group">
-                <textarea class="col-sm-12 form-control campo" placeholder="Mensaje"></textarea>
+                <textarea class="col-sm-12 form-control campo" placeholder="Mensaje" required></textarea>
               </div>
               <div class="form-group">
                 <input class="col-sm-2 col-md-offset-10 btn btn-default" type="submit" value="Enviar">
@@ -202,7 +202,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/smooth-scroll.js"></script>
-        <script src="js/waypoint.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
