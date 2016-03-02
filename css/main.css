@@ -145,3 +145,26 @@ footer p{
   color: #fafafa;
   font-size: 5.5em;
 }
+@media(max-width: 767px) {
+
+  #contacto{
+    padding-bottom: 0px;
+  }
+  .form-group{
+    margin:0;
+  }
+  footer img{
+    width: 130px!important;
+  }
+
+  #principal{
+    padding: 20px;
+  }
+  ul{
+    padding: 0;
+  }
+  .mobil
+  {
+    text-align: center;
+  }
+}
