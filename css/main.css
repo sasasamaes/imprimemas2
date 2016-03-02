@@ -2,6 +2,7 @@
 @import url(bootstrap.min.css);
 @import url(bootstrap-theme.min.css);
 @import url(font-awesome.min.css);
+@import url(flaticon.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 @import url(https://fonts.googleapis.com/css?family=Oswald:700);
 @import url(animate.css);
@@ -46,12 +47,16 @@ h1,h2,h3,h4,h5,h6{
 .nav>li>a:hover,.nav>li>a:focus{
   background: transparent;
 }
+#centro{
+  margin: 0 auto;
+}
 .separador{
   width: 60px;
   height:3px;
   display: block;
   margin:0 auto;
   background: #efaf3f;
+  margin-bottom: 30px;
 }
 .gris{
   background: #f5f5f5;;
@@ -60,6 +65,14 @@ h1,h2,h3,h4,h5,h6{
   background: #FFFFFF url('../img/fondo1.jpg') no-repeat center center fixed;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#principal p{
+  color:#FAFAFA;
+  font-size: 1.8em;
 }
 #sobreNostros{
   width: 100%;
@@ -118,4 +131,17 @@ textarea{
 footer{
   background: #282828;
   color:#FAFAFA;
+  font-size: .8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+footer p{
+  margin: 0;
+}
+.social:before{
+  color: #fafafa;
+  font-size: 5.5em;
 }
