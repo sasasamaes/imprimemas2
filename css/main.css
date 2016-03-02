@@ -38,6 +38,16 @@ h1,h2,h3,h4,h5,h6{
   border:none;
   min-height: 90px;
   padding-top:20px;
+  transition: 0.5s all ease;
+}
+.efecto{
+  background:#282828;
+  min-height: 60px;
+  box-shadow: 0 0 10px black;
+  padding-top: 0;
+}
+.normal{
+  transition: 0.5s all ease;
 }
 .nav>li>a{
   font-size: 1.1em;
