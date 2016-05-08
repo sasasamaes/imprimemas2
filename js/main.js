@@ -1,4 +1,6 @@
+ var map;
 $(document).ready(function(){
+
   var distancia = $('.navbar-fixed-top').offset();
 
   if(distancia.top > 0){
@@ -45,5 +47,14 @@ $(document).ready(function(){
     updateURL: false, // Boolean. If true, update the URL hash on scroll
     callback: function ( anchor, toggle ) {} // Function to run after scrolling
   });
+  
+  
+  
 
 });
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: 9.967952, lng: -84.119501},
+  zoom: 8
+  });
+}
